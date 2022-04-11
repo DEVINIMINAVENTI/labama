@@ -1,0 +1,242 @@
+*{
+    margin: auto;
+}
+.maincon{
+    width: 1350px;
+    height: 1500px;
+    background-color: whitesmoke;
+    
+}
+.paymentheader{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 1350px;
+    height: 50px;
+    background-color: black;
+    padding-left: 120px;
+    padding-top: 15px;
+    color: hotpink;
+}
+.following{
+    width: 1350px;
+    height: 1200px;
+    background-color: #2d2d2d;
+}
+.paytalk{
+    color: brown;
+    text-transform: bold;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.paypage{
+    width: 800px;
+    height: 600px;
+    list-style: none;
+    background-color: whitesmoke;
+    position: relative;
+    left: -220px;
+    top: 20px;
+}
+.details{
+    color: rebeccapurple;
+    padding-top: 30px;
+}
+button{
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
+    font-weight: bold !important;
+    background: linear-gradient(#800080);
+    background-color: #800080;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #800080;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    left: 120PX;
+    top: 120px;
+    
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);  
+}
+.origin{
+    font-size: 35px;
+    padding-top: 20px;
+    color:#a4e388;
+}
+.speci{
+    text-align: center;
+    color: blue;
+}
+.bottomdes{
+    text-align: left;
+}
+.bottomdes1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    padding-top: 20px;
+    font-size: 40px;
+    left: -20px;
+    position: relative;
+}
+.main2{
+    position: relative;
+    left: -20px;
+    top: 20px;
+        width: 800px;
+        height: 500px;
+        background-color: none;
+        background-size: 100% 100%;
+        box-shadow: 1px 2px 10px 5px blue;
+        background-image: url('123.jpg');
+        background-image: url('better.jpg');
+        background-image: url('better3.jpg');
+        animation:slider 8s infinite linear;
+   
+}
+@keyframes slider{
+    10%{ background-image: url('better.jpg'); }
+    40%{   background-image: url('123.jpg');  }
+    80%{background-image: url('better3.jpg');}
+}
+
+.sideinfo{
+    width: 420px;
+    height: 1100px;
+    background-color: bisque;
+    position: relative;
+    left: 435px;
+    top: -580px;
+    list-style: none;
+}
+.bottominfo{
+    width: 800px;
+    height: 480px;
+    list-style: none;
+    background-color: cadetblue;
+    position: relative;
+    top: -1060px;
+    left: -220px;
+}
+/*
+.maincontainer{
+    width: 1350px;
+    height: 1200px;
+    background-color: whitesmoke;
+}
+.header{
+    width: 1350px;
+    height: 60px;
+    background-color: #2d2d2d;
+    text-align: left;
+    list-style: none;
+    font-size: 40px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    color: azure;
+}
+.headerword{
+    font-size: 40px;
+    left: 150px;
+    position: relative;
+}
+.paymentpage{
+    width: 800px;
+    height: 520px;
+    background-color: white;
+    padding-top: 10px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    padding-left: 20px;
+    
+}
+
+
+}
+.prodiv{
+    width: 1000px;
+    height: 600px;
+    background-color: #2d2d2d;
+}
+.preview{
+ color: aqua;
+ text-align: center;
+}
+.main{
+    width: 1000px;
+    height: 500px;
+    background-color: yellow;
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px blue;
+    background-image: url('123.jpeg');
+    animation:slider 12s infinite linear;
+}
+@keyframes slider{
+    0%{ background-image: url('better.png'); }
+    35%{   background-image: url('123.jpeg');  }
+    70%{background-image: url('niceview.jpg');}
+}
+
+.itemdesc{
+    width: 810px;
+    height: 430px;
+    left: -15px;
+    position: relative;
+    top: 50px;
+    background-color: bisque;
+}
+.underdes{
+   
+  list-style-type: none;
+}
+.itemname1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.formss{
+    
+    text-align: center;
+}
+.form111{
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    display: block;
+}
+.itemname2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.payment2{
+    width: 470px;
+    height: 1000px;
+    background-color: aqua;
+    position: relative;
+    left: 850px;
+    top: -510px;
+}
+.itemdes{
+    list-style-type: none;
+    font-size: 20px;
+}
+.forminfo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28.9px;
+    text-align: center; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;  
+}
+.paymentpics{
+    width: 780px;
+    height: 470px;
+}
+*/
