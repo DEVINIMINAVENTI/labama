@@ -359,7 +359,7 @@ button {
         visibility: hidden;
     }
     .sidebarb{
-       visibility: visible;
+       visibility: hidden;
     }
     .navbarbaa{
         visibility: hidden;
@@ -467,6 +467,7 @@ button {
         left: 0PX;
         top: 80px;
         border-radius: 15px;
+display:none;
     }
     .sidebar ul li{
         list-style-type: none;
@@ -545,6 +546,7 @@ button {
     }
     .sidebar{
         border-radius: 5px;
+display:none;
     }
 
 }
@@ -604,7 +606,7 @@ button {
         visibility: hidden;
     }
     .sidebarb{
-       visibility: visible;
+       visibility: hidden;
     }
     .navbarbaa{
         visibility: hidden;
@@ -711,6 +713,7 @@ button {
         position: fixed;
         left: 0PX;
         top: 80px;
+display:none;
     }
     .sidebar ul li{
         list-style-type: none;
@@ -808,7 +811,7 @@ button {
         visibility: hidden;
     }
     .sidebarb{
-       visibility: visible;
+       visibility: hidden;
     }
     .navbarbaa{
         visibility: hidden;
@@ -916,6 +919,7 @@ button {
         position: fixed;
         left: 0PX;
         top: 80px;
+display:none;
     }
     .sidebar ul li{
         list-style-type: none;
@@ -989,6 +993,7 @@ button {
         position: fixed;
         left: 0PX;
         top: 80px;
+display:none;
     }
     .sidebar ul li{
         list-style-type: none;
@@ -1054,7 +1059,7 @@ button {
         visibility: hidden;
     }
     .sidebarb{
-       visibility: visible;
+       visibility: hidden;
     }
     .navbarbaa{
         visibility: hidden;
@@ -1229,7 +1234,7 @@ button {
         visibility: hidden;
     }
     .sidebarb{
-       visibility: visible;
+       visibility: hidden;
     }
 
     .navbarbaa{
@@ -1347,6 +1352,7 @@ button {
         border-radius: 3px;
         top: 50px;
         height: 330px;
+display:none;
     }
     .sidebar a{
         font-size: 8px;
